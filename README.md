@@ -128,7 +128,7 @@
         ],
         "student": [
             {
-                "_id": "64c51885179ec019469701db",
+            "_id": "64c51885179ec019469701db",
                 "id": 5,
                 "name": "Guru",
                 "DOB": "06-05-1999",
@@ -153,18 +153,18 @@
     }
 ] 
 
-And then API to Assign a Student to a Mentor
+*And then API to Assign a Student to a Mentor
 
-Select one mentor and add multiple students
-*A student who has a mentor should not be shown in the list
-*PUT method:localhost:9000/mentor/updateMentor/1
-*Payload : { "student": [2,5,6]} //2,5,6 are id's of students
+*Select one mentor and add multiple students,
+*A student who has a mentor should not be shown in the list,
+*PUT method:localhost:9000/mentor/updateMentor/1,
+*Payload : { "student": [2,5,6]} //2,5,6 are id's of students,
  
- API to assign or change a mentor for a particular student
-*Select one student and assign one mentor
-*PUT method:localhost:9000/mentor/assign/1 (this will assign student 1 to mentor 1)
-*Payload : { "mentorId": 1}
+* API to assign or change a mentor for a particular student,
+*Select one student and assign one mentor,
+*PUT method:localhost:9000/mentor/assign/1 (this will assign student 1 to mentor 1),
+*Payload : { "mentorId": 1},
 
-API to show all students for a particular Mentor
-*GET method: localhost:9000/mentor/get/1
+*API to show all students for a particular Mentor,
+*GET method: localhost:9000/mentor/get/1.
 

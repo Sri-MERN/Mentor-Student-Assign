@@ -168,3 +168,4 @@
 *API to show all students for a particular Mentor,
 *GET method: localhost:9000/mentor/get/1.
 
+for all the localhost:9000 should be replaced with https://student-mentor-assign-qbay.onrender.com
